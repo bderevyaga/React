@@ -1,14 +1,13 @@
-html, body, #root {
+html, body, #root, [data-reactroot] {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 body {
   font-family: sans-serif;
 }
 
-#root {
-  position: relative;
-}
+
